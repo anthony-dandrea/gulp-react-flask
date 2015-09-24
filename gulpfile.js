@@ -1,37 +1,30 @@
 // Include libraries
+// plugins is able to bring some libraries dynamically
 var gulp        = require('gulp'),
     minifyCSS   = require('gulp-minify-css'),
     minifyHTML  = require('gulp-minify-html'),
     pngquant    = require('imagemin-pngquant'),
+    browserify  = require('browserify'),
+    babelify    = require('babelify'),
+    source      = require('vinyl-source-stream'),
+    buffer      = require('vinyl-buffer'),
     plugins     = require('gulp-load-plugins')();
 
-var gutil       = require('gulp-util');
-var source      = require('vinyl-source-stream');
-var babelify    = require('babelify');
-var watchify    = require('watchify');
-var exorcist    = require('exorcist');
-var browserify  = require('browserify');
-var browserSync = require('browser-sync').create();
-
-// var gulp = require('gulp'),
-//     browserify = require('browserify'),
-//     reactify = require('reactify'),
-//     source = require('vinyl-source-stream');
-
-// gulp.task('browserify', function() {
-//     browserify('./src/js/main.js')
-//     .transform('reactify')
-//     .bundle()
-//     .pipe(source('main.js'))
-//     .pipe(gulp.dest('dist/js'));
-// });
-
-// gulp.task('copy', function() {
-//     gulp.src('src/index.html')
-//         .pipe(gulp.dest('dist'));
-//     gulp.src('src/assets/**/*.*')
-//         .pipe(gulp.dest('dist/assets'));
-// });
+// Compile jsx es6 scripts
+// http://www.jayway.com/2015/03/04/using-react-with-ecmascript-6/
+gulp.task('jsx', function () {
+  browserify({
+    entries: './src/static/scripts/script.js',
+    extensions: ['.js'],
+    debug: true
+  })
+  .transform(babelify)
+  .bundle()
+  .pipe(source('bundle.js'))
+  .pipe(buffer())
+  .pipe(plugins.uglify())
+  .pipe(gulp.dest('dist/static/scripts'));
+});
 
 // Run Flask server
 gulp.task('server', plugins.shell.task([
@@ -89,7 +82,8 @@ gulp.task('watch', function() {
     gulp.watch('./src/static/styles/**/*.scss', ['styles']);
     gulp.watch('./src/templates/**/*.html', ['templates']);
     gulp.watch('./src/static/images/**/*.*', ['images']);
+    gulp.watch('./src/static/scripts/**/*.*', ['jsx']);
 });
 
 // Default gulp task
-gulp.task('default', ['styles', 'templates', 'images', 'server', 'watch']);
+gulp.task('default', ['styles', 'templates', 'jsx', 'server', 'watch']);
