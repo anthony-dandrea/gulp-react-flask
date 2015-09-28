@@ -1,0 +1,1947 @@
+# #-#-#-#-#  API.po (API 0.0)  #-#-#-#-#
+# Spanish translations for API.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the API project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+# #-#-#-#-#  lksaml.po (lksaml 0.1)  #-#-#-#-#
+# Spanish translations for lksaml.
+# Copyright (C) 2015 ORGANIZATION
+# This file is distributed under the same license as the lksaml project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2015.
+#
+# #-#-#-#-#  oauth.po (oauth 0.0)  #-#-#-#-#
+# Translations template for oauth.
+# Copyright (C) 2014 ORGANIZATION
+# This file is distributed under the same license as the oauth project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"#-#-#-#-#  API.po (API 0.0)  #-#-#-#-#\n"
+"Project-Id-Version: API 0.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-01-28 13:49-0800\n"
+"PO-Revision-Date: 2014-02-05 17:18-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Generated-By: Babel 1.3\n"
+"#-#-#-#-#  lksaml.po (lksaml 0.1)  #-#-#-#-#\n"
+"Project-Id-Version: lksaml 0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2015-01-28 16:07-0800\n"
+"PO-Revision-Date: 2015-01-28 16:08-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"#-#-#-#-#  oauth.po (oauth 0.0)  #-#-#-#-#\n"
+"Project-Id-Version: oauth 0.0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2014-03-24 13:06-0700\n"
+"PO-Revision-Date: 2015-01-13 14:12-0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 1.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_US\n"
+"X-Generator: Poedit 1.7.3\n"
+
+#: api/templates/404.mako:4 oauth/templates/404.mako:4
+#: oauth/templates/error.mako:4
+msgid "There is an error"
+msgstr "Se produjo un error"
+
+#: api/templates/app.mako:5 api/templates/app.mako:7 api/templates/sso.mako:5
+#: api/templates/sso.mako:7
+msgid "LaunchKey Developer Dashboard"
+msgstr "Tablero de desarrollador de LaunchKey"
+
+#: api/templates/app.mako:5 api/templates/organization.mako:67
+msgid "New App"
+msgstr "Nueva aplicación"
+
+#: api/templates/app.mako:7 oauth/templates/base.mako:95
+msgid "App"
+msgstr "Aplicación"
+
+#: api/templates/app.mako:44
+msgid "Create a new developer app"
+msgstr "Elaborar nueva aplicación de desarrollador"
+
+#: api/templates/app.mako:45
+msgid ""
+"If you want to add LaunchKey to your website, mobile app or other project, "
+"use this form to create an app and get started."
+msgstr ""
+"Si deseas agregar LaunchKey a tu cibersitio, aplicación para móvil u otro "
+"proyecto, usa este formulario para elaborar una nueva aplicación y comenzar "
+"el proceso."
+
+#: api/templates/base.mako:42 api/templates/base.mako:75
+#: api/templates/base.mako:298 api/templates/index.mako:4
+#: api/templates/index.mako:33 oauth/templates/base.mako:170
+msgid "Orbit"
+msgstr "Órbita"
+
+#: api/templates/base.mako:43 api/templates/base.mako:76
+#: api/templates/base.mako:296 api/templates/base.mako:299
+#: api/templates/control.mako:4 api/templates/control.mako:18
+#: oauth/templates/base.mako:171
+msgid "Control"
+msgstr "Control"
+
+#: api/templates/base.mako:44 api/templates/base.mako:77
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: api/templates/base.mako:45 api/templates/base.mako:72
+#: api/templates/control.mako:216 api/templates/unpair_form.mako:54
+msgid "Unpair"
+msgstr "Desvincular"
+
+#: api/templates/base.mako:49 api/templates/pair.mako:9
+#: api/templates/pair_complete.mako:12 api/templates/unpair.mako:27
+msgid "Log in to dashboard"
+msgstr "Entrar a tablero"
+
+#: api/templates/base.mako:49 api/templates/base.mako:70
+#: api/templates/pair.mako:9 api/templates/pair_complete.mako:12
+#: api/templates/unpair.mako:27
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: api/templates/base.mako:68 api/templates/base.mako:122
+#: api/templates/base.mako:262 oauth/templates/base.mako:48
+msgid "Home"
+msgstr "Inicio"
+
+#: api/templates/base.mako:74 oauth/templates/base.mako:96
+#: oauth/templates/base.mako:168
+msgid "Dashboard"
+msgstr "Tablero"
+
+#: api/templates/base.mako:78 api/templates/base.mako:308
+msgid "Applications"
+msgstr "Aplicaciones"
+
+#: api/templates/base.mako:99 api/templates/base.mako:336
+msgid "Create new developer app"
+msgstr "Elaborar nueva aplicación de desarrollador"
+
+#: api/templates/base.mako:99 api/templates/base.mako:336
+msgid "New app"
+msgstr "Nueva aplicación"
+
+#: api/templates/base.mako:100 api/templates/base.mako:340
+#: api/templates/organizations.mako:4
+msgid "Organizations"
+msgstr "Organizaciones"
+
+#: api/templates/base.mako:110 api/templates/base.mako:112
+#: api/templates/base.mako:351 api/templates/base.mako:353
+#: api/templates/create_org_form.mako:4
+msgid "Create a new organization"
+msgstr "Crear nueva organización"
+
+#: api/templates/base.mako:110 api/templates/base.mako:112
+#: api/templates/base.mako:351 api/templates/base.mako:353
+msgid "Create New"
+msgstr "Nueva"
+
+#: api/templates/base.mako:163 api/templates/edit_sso_form.mako:13
+#: api/templates/organization.mako:207 oauth/templates/base.mako:94
+msgid "Users"
+msgstr "Usuarios"
+
+#: api/templates/base.mako:168 api/templates/base.mako:360
+#: oauth/templates/base.mako:98 oauth/templates/base.mako:190
+msgid "Helpdesk"
+msgstr "Ayuda técnica"
+
+#: api/templates/base.mako:169 oauth/templates/base.mako:99
+msgid "Submit support ticket"
+msgstr "Enviar solicitud de servicio"
+
+#: api/templates/base.mako:169 oauth/templates/base.mako:99
+msgid "Support Ticket"
+msgstr "Solicitud de servicio"
+
+#: api/templates/base.mako:204 oauth/templates/base.mako:81
+msgid "Developers"
+msgstr "Desarrolladores"
+
+#: api/templates/base.mako:206
+msgid "Developer Docs"
+msgstr "Manual del desarrollador"
+
+#: api/templates/base.mako:207
+msgid "LaunchKey API Libraries"
+msgstr "Bibliotecas API de LaunchKey"
+
+#: api/templates/base.mako:207 oauth/templates/base.mako:84
+msgid "API Libraries"
+msgstr "Bibliotecas API"
+
+#: api/templates/base.mako:208 oauth/templates/base.mako:86
+msgid "White Hat Bug Bounty Program"
+msgstr "Programa de recompensas para hackers con ética"
+
+#: api/templates/base.mako:208 oauth/templates/base.mako:86
+msgid "White Hat"
+msgstr "Hacker con ética"
+
+#: api/templates/base.mako:214 oauth/templates/base.mako:107
+msgid "Company"
+msgstr "Empresa"
+
+#: api/templates/base.mako:216
+msgid "About Us"
+msgstr "Nosotros"
+
+#: api/templates/base.mako:216
+msgid "About"
+msgstr "Nosotros"
+
+#: api/templates/base.mako:217 oauth/templates/base.mako:108
+msgid "Blog"
+msgstr "Blog"
+
+#: api/templates/base.mako:218 oauth/templates/base.mako:111
+msgid "Careers"
+msgstr "Empleos"
+
+#: api/templates/base.mako:219 oauth/templates/base.mako:110
+msgid "Newsroom"
+msgstr "Sala de prensa"
+
+#: api/templates/base.mako:236 api/templates/login.mako:32
+#: oauth/templates/base.mako:130
+msgid ""
+"Download the LaunchKey mobile app on your iOS device in the Apple App Store"
+msgstr ""
+"Descarga la aplicación móvil de LaunchKey en tu dispositivo iOS desde la App "
+"Apple Store#-#-#-#-#  oauth.po (oauth 0.0)  #-#-#-#-#\n"
+"Descarga la aplicación para móvil de Launchkey en tu dispositivo iOS desde "
+"la Apple Store"
+
+#: api/templates/base.mako:236 oauth/templates/base.mako:130
+#: oauth/templates/login.mako:49
+msgid "Apple App Store"
+msgstr "Apple App Store"
+
+#: api/templates/base.mako:237 api/templates/login.mako:33
+#: oauth/templates/base.mako:131
+msgid "Download the LaunchKey mobile app on your Android smartphone"
+msgstr "Descarga la aplicación para móvil de LaunchKey en tu teléfono Android"
+
+#: api/templates/base.mako:237 oauth/templates/base.mako:131
+#: oauth/templates/login.mako:49
+msgid "Google Play"
+msgstr "Google Play"
+
+#: api/templates/base.mako:238 api/templates/login.mako:34
+#: oauth/templates/base.mako:132
+msgid "Download the LaunchKey mobile app on your Windows Phone"
+msgstr "Descarga la aplicación móvil de LaunchKey en tu teléfono Windows"
+
+#: api/templates/base.mako:238 oauth/templates/base.mako:132
+msgid "Windows Store"
+msgstr "Tienda Windows"
+
+#: api/templates/base.mako:267
+msgid "Copyright &copy; 2015"
+msgstr "Copyright &copy; 2015"
+
+#: api/templates/base.mako:301 api/templates/base.mako:303
+#: api/templates/notifications.mako:4 api/templates/notifications.mako:17
+msgid "Notifications"
+msgstr "Aplicaciones"
+
+#: api/templates/base.mako:301
+msgid "Notifications ()"
+msgstr "Aplicaciones ()"
+
+#: api/templates/base.mako:358 oauth/templates/base.mako:188
+msgid "Support"
+msgstr "Soporte técnico"
+
+#: api/templates/base.mako:361
+msgid "LaunchKeyHelp on Twitter"
+msgstr "LaunchKeyHelp on Twitter"
+
+#: api/templates/control.mako:4 api/templates/index.mako:4
+#: api/templates/notifications.mako:4
+msgid "LaunchKey Dashboard"
+msgstr "Tablero de LaunchKey"
+
+#: api/templates/control.mako:21
+msgid "Launch Control"
+msgstr "Control de lanzamientos"
+
+#: api/templates/control.mako:27
+msgid "Lock launch pad"
+msgstr "Bloquear zona de lanzamiento"
+
+#: api/templates/control.mako:35 api/templates/control.mako:38
+#: api/templates/control.mako:57 api/templates/control.mako:60
+#: api/templates/control.mako:140 api/templates/control.mako:143
+#: api/templates/edit_app_form.mako:112 api/templates/edit_app_form.mako:115
+#: api/templates/edit_app_form.mako:431 api/templates/edit_app_form.mako:434
+msgid "On"
+msgstr "Encendido"
+
+#: api/templates/control.mako:71
+msgid "Deorbit all"
+msgstr "Sacar de órbita todos los dispositivos"
+
+#: api/templates/control.mako:76
+msgid "Deorbit all active sessions"
+msgstr "Sacar de órbita todos los dispositivos"
+
+#: api/templates/control.mako:76 api/templates/index.mako:30
+msgid "Deorbit All"
+msgstr "Sacar de órbita todos los dispositivos"
+
+#: api/templates/control.mako:85
+msgid "App Language"
+msgstr "Idioma de aplicación"
+
+#: api/templates/control.mako:172
+msgid "Pair Phone"
+msgstr "Teléfono"
+
+#: api/templates/control.mako:204
+msgid "Paired Devices"
+msgstr "Dispositivos vinculados"
+
+#: api/templates/control.mako:216 api/templates/message.mako:24
+#: api/templates/pair_complete.mako:28 api/templates/unpair.mako:43
+msgid "Unpair device"
+msgstr "Desvincula tu dispositivo"
+
+#: api/templates/control.mako:225 oauth/templates/base.mako:97
+msgid "Unpair Device"
+msgstr "Desvincula tu dispositivo\n"
+
+#: api/templates/control.mako:252 api/templates/control.mako:281
+#: api/templates/control.mako:311 api/templates/edit_app.js.mako:486
+msgid "There was an error"
+msgstr "Se produjo un error"
+
+#: api/templates/control.mako:261 api/templates/control.mako:290
+#: api/templates/control.mako:320
+msgid "Send Unpair Request"
+msgstr "Enviar pedido para vincular dispositivo"
+
+#: api/templates/create_app_form.mako:7 api/templates/create_sso_form.mako:3
+#: api/templates/edit_sso_form.mako:18
+msgid "Basic Information"
+msgstr "Información del administrador."
+
+#: api/templates/create_app_form.mako:10 api/templates/create_app_form.mako:14
+msgid "App name"
+msgstr "Nombre de aplicación"
+
+#: api/templates/create_app_form.mako:11 api/templates/edit_app_form.mako:51
+msgid ""
+"The app name is the name users will see in launch requests, inside their "
+"Orbit list and within push notifications. It should accurately reflect the "
+"name and/or function of your product or service."
+msgstr ""
+"El nombre de la aplicación será aquel que los usuarios verán en los pedidos "
+"de lanzamiento dentro de su Órbita y dentro de las alertas automáticas. Debe "
+"reflejar de manera precisa el nombre o función de tu producto o servicio."
+
+#: api/templates/create_app_form.mako:19 api/templates/create_app_form.mako:23
+#: api/templates/create_org_form.mako:17 api/templates/edit_app_form.mako:64
+msgid "Description"
+msgstr "Descripción"
+
+#: api/templates/create_app_form.mako:20
+msgid "Briefly describe your application"
+msgstr "Describe tu aplicación brevemente:"
+
+#: api/templates/create_app_form.mako:27 api/templates/create_sso_form.mako:40
+#: api/templates/edit_app_form.mako:24 api/templates/edit_sso_form.mako:22
+msgid "Avatar"
+msgstr "Avatar"
+
+#: api/templates/create_app_form.mako:28
+msgid ""
+"Your avatar will be visible to users inside their Orbit and within launch "
+"requests."
+msgstr ""
+"Tu avatar estará a la vista de los demás usuarios dentro de su Órbita y "
+"dentro de los pedidos de lanzamiento."
+
+#: api/templates/create_app_form.mako:62
+msgid "Domain (Web Only)"
+msgstr "Dominio (solo para red virtual)"
+
+#: api/templates/create_app_form.mako:63
+msgid "For web apps only, leave blank if you're creating a native mobile app."
+msgstr ""
+"En el caso de aplicaciones para red virtual solamente, deja en blanco si "
+"estás creando una aplicación de formato móvil nativo."
+
+#: api/templates/create_app_form.mako:63
+msgid "This is the URL of your site domain."
+msgstr "Este campo es el URL del dominio de tu sitio."
+
+#: api/templates/create_app_form.mako:75 api/templates/create_sso_form.mako:53
+#: api/templates/pair.mako:29
+msgid "Terms of Service"
+msgstr "Condiciones de servicio"
+
+#: api/templates/create_app_form.mako:76 api/templates/create_sso_form.mako:54
+#: oauth/templates/base.mako:149
+msgid "Developer Terms of Service"
+msgstr "Condiciones de servicio para desarrolladores"
+
+#: api/templates/create_org_form.mako:5
+msgid ""
+"Organizations may contain multiple apps and may be assigned multiple "
+"administrators."
+msgstr ""
+"Las organizaciones podrán tener varias aplicaciones y nombrar diferentes "
+"administradores."
+
+#: api/templates/create_org_form.mako:12
+msgid "Organization Name"
+msgstr "Nombre de la organización"
+
+#: api/templates/create_org_form.mako:13
+msgid "Name will be seen by all members of this organization."
+msgstr "Todos los miembros de la organización podrán ver el nombre."
+
+#: api/templates/create_org_form.mako:14 api/templates/edit_app_form.mako:50
+#: api/templates/edit_sso_form.mako:51
+msgid "Name"
+msgstr "Nombre"
+
+#: api/templates/create_org_form.mako:15
+msgid "Brief Description"
+msgstr "Descripcióni breve"
+
+#: api/templates/create_org_form.mako:16
+msgid "Brief description or motto of this organization."
+msgstr "Descripción o lema de esta organización."
+
+#: api/templates/create_org_form.mako:18
+msgid "Upload Logo"
+msgstr "Subir logotipo"
+
+#: api/templates/create_org_form.mako:19
+msgid "Visible to all group members."
+msgstr "Es visible para todos los integrantes del grupo."
+
+#: api/templates/create_org_form.mako:19
+msgid "JPG or PNG file format only"
+msgstr "Solo archivos de formato JPG o PNG"
+
+#: api/templates/create_org_form.mako:21
+msgid "Admin information."
+msgstr "Información del administrador."
+
+#: api/templates/create_org_form.mako:22 api/templates/create_org_form.mako:23
+msgid "First Name"
+msgstr "Nombre"
+
+#: api/templates/create_org_form.mako:24 api/templates/create_org_form.mako:25
+msgid "Last Name"
+msgstr "Apellido(s)"
+
+#: api/templates/create_org_form.mako:26 api/templates/create_org_form.mako:27
+msgid "Email Address"
+msgstr "Dirección de correo-e"
+
+#: api/templates/create_org_form.mako:28
+msgid "Create"
+msgstr "Crear"
+
+#: api/templates/create_sso_form.mako:35
+msgid "No Expiration"
+msgstr "Aplicaciones"
+
+#: api/templates/create_sso_form.mako:41
+msgid ""
+"Your avatar will be visible to users when they initiate a single sign on "
+"request."
+msgstr ""
+"Tu avatar estará a la vista de los demás usuarios dentro de su Órbita y "
+"dentro de los pedidos de lanzamiento."
+
+#: api/templates/edit_app.js.mako:627 api/templates/edit_app.js.mako:641
+msgid "Key updated"
+msgstr "Clave actualizada"
+
+#: api/templates/edit_app.js.mako:677
+msgid "Successfully updated"
+msgstr "Actualización exitosa"
+
+#: api/templates/edit_app_form.mako:8
+msgid "App Details"
+msgstr "Detalles de la aplicación"
+
+#: api/templates/edit_app_form.mako:12 api/templates/edit_sso_form.mako:10
+msgid "General"
+msgstr "General"
+
+#: api/templates/edit_app_form.mako:13
+msgid "Keys"
+msgstr "Claves"
+
+#: api/templates/edit_app_form.mako:14 oauth/templates/base.mako:109
+msgid "Security"
+msgstr "Seguridad"
+
+#: api/templates/edit_app_form.mako:25
+msgid ""
+"Upload an image that is representative of your organization or application. "
+"Your avatar will be visible in launch requests and Orbit."
+msgstr ""
+"Sube una imagen que represente a tu organización o aplicación. Se podrá ver "
+"tu avatar en la órbita y cuando envíes pedidos de lanzamiento."
+
+#: api/templates/edit_app_form.mako:25 api/templates/edit_sso_form.mako:23
+msgid "PNG or JPG only"
+msgstr "Solo PNG o JPG"
+
+#: api/templates/edit_app_form.mako:35 api/templates/edit_sso_form.mako:31
+msgid "Update app avatar"
+msgstr "Actualizar avatar de aplicación"
+
+#: api/templates/edit_app_form.mako:38 api/templates/edit_app_form.mako:39
+#: api/templates/edit_app_form.mako:41 api/templates/edit_sso_form.mako:34
+#: api/templates/edit_sso_form.mako:35 api/templates/edit_sso_form.mako:37
+msgid "Application avatar"
+msgstr "Avatar de aplicación"
+
+#: api/templates/edit_app_form.mako:51
+msgid "50 chars. max"
+msgstr "Máximo 50 carácteres"
+
+#: api/templates/edit_app_form.mako:65
+msgid "A brief description of your app and its purpose or function."
+msgstr "Breve descripción de tu aplicación y su objetivo o función."
+
+#: api/templates/edit_app_form.mako:65
+msgid "150 chars. max"
+msgstr "Máximo 150 caracteres"
+
+#: api/templates/edit_app_form.mako:77
+msgid "Callback URL"
+msgstr "Callback URL"
+
+#: api/templates/edit_app_form.mako:78
+msgid "For web apps only"
+msgstr "Solo para aplicaciones de la Red"
+
+#: api/templates/edit_app_form.mako:78
+msgid ""
+"Leave blank if you're creating a native mobile app. This is the URL on your "
+"site domain that accepts LaunchKey webhooks."
+msgstr ""
+"Deja en blanco su estás creando una aplicación de formato móvil nativo."
+
+#: api/templates/edit_app_form.mako:89
+msgid "Domain (OAuth)"
+msgstr "Domain (OAuth)"
+
+#: api/templates/edit_app_form.mako:90
+msgid "For OAuth only"
+msgstr "En el caso de OAuth solamente"
+
+#: api/templates/edit_app_form.mako:90
+msgid ""
+"This is the URL on your site domain where OAuth redirects to after logging "
+"in. Please make sure to include \"www\" if your domain requires it."
+msgstr ""
+"Debes usar el dominio de tu sitio. Asegúrate de incluir \"www\" si tu nombre"
+
+#: api/templates/edit_app_form.mako:104
+msgid "App Status"
+msgstr "Estado de la aplicación"
+
+#: api/templates/edit_app_form.mako:105
+msgid "Turn off to disable your app or back on to enable it."
+msgstr "Apagar para desactivar aplicación o encender para activarla de nuevo."
+
+#: api/templates/edit_app_form.mako:128 api/templates/edit_sso_form.mako:163
+msgid "Please Confirm Removal"
+msgstr "Confirma eliminación"
+
+#: api/templates/edit_app_form.mako:129 api/templates/edit_sso_form.mako:164
+msgid ""
+"An authorization request has been sent to your paired LaunchKey device(s)."
+msgstr ""
+"Se envió una solicitud de autorización a tu(s) dispositivo(s) vinculado(s) "
+"con LaunchKey."
+
+#: api/templates/edit_app_form.mako:130
+msgid "By removing this application you will delete all associated data."
+msgstr "Todos los datos quedarán borrados al eliminar esta aplicación."
+
+#: api/templates/edit_app_form.mako:134
+msgid "Delete App"
+msgstr "Borrar aplicación"
+
+#: api/templates/edit_app_form.mako:150
+msgid "App Key"
+msgstr "Claves de la aplicación"
+
+#: api/templates/edit_app_form.mako:151
+msgid "The unique identifier for your app."
+msgstr "El identificador único de tu aplicación."
+
+#: api/templates/edit_app_form.mako:160
+msgid "Secret Key"
+msgstr "Clave secreta"
+
+#: api/templates/edit_app_form.mako:161
+msgid ""
+"Your secret key should never be shared with anyone else. You can reset your "
+"secret key by clicking the 'Generate new key' button. Generating a new key "
+"will cause your current key to expire in 24 hours."
+msgstr ""
+"Nunca debes compartir tu clave secreta con nadie. Si deseas cambiar tu clave "
+"secreta puedes hacerlo haciendo clic en el botón 'Genera nueva clave', pero "
+"al obtener una nueva la actual vencerá en 24 horas."
+
+#: api/templates/edit_app_form.mako:169
+msgid "Secret Key no longer visible"
+msgstr "Clave secreta ya no está a la vista"
+
+#: api/templates/edit_app_form.mako:173
+msgid "New Secret Key"
+msgstr "Nueva clave secreta"
+
+#: api/templates/edit_app_form.mako:175 api/templates/edit_app_form.mako:199
+msgid "Download new key"
+msgstr "Descarga clave nueva"
+
+#: api/templates/edit_app_form.mako:180
+msgid "Updated"
+msgstr "Actualizado"
+
+#: api/templates/edit_app_form.mako:190
+msgid "Private Key"
+msgstr "Clave privada"
+
+#: api/templates/edit_app_form.mako:191
+msgid "Keep your private key confidential, and don't share it with anyone!"
+msgstr "Conserva tu clave privada en secreto y no la compartas con nadie."
+
+#: api/templates/edit_app_form.mako:197
+msgid "New Private Key"
+msgstr "Clave privada"
+
+#: api/templates/edit_app_form.mako:200
+msgid "View & copy new key"
+msgstr "Visualiza y copia clave nueva"
+
+#: api/templates/edit_app_form.mako:207
+msgid "Public Key"
+msgstr "Clave pública"
+
+#: api/templates/edit_app_form.mako:208
+msgid ""
+"Public keys are generated automatically anytime you generate a new private "
+"key, otherwise you may upload your own public key."
+msgstr ""
+"Las claves públicas se generan automáticamente cada vez que estableces una "
+"clave privada nueva, de lo contrario podrá cargar tu propia clave pública."
+
+#: api/templates/edit_app_form.mako:212
+msgid "New Public Key"
+msgstr "Clave pública"
+
+#: api/templates/edit_app_form.mako:216
+msgid "Upload new key"
+msgstr "Descarga clave nueva"
+
+#: api/templates/edit_app_form.mako:220
+msgid "Public Key Confirmed"
+msgstr "Se confirmó clave pública"
+
+#: api/templates/edit_app_form.mako:350
+msgid "End"
+msgstr "pendiente(s)"
+
+#: api/templates/edit_app_form.mako:391
+msgid "Fence Name"
+msgstr "Nombre de dispositivo"
+
+#: api/templates/edit_app_form.mako:457
+msgid "Add User"
+msgstr "Usuarios"
+
+#: api/templates/edit_app_form.mako:514 api/templates/unpair_form.mako:17
+msgid "Type"
+msgstr "Tipo"
+
+#: api/templates/edit_app_form.mako:587 api/templates/edit_sso_form.mako:355
+#: api/templates/organization.mako:288 api/templates/organization.mako:293
+msgid "Authenticate to Finish"
+msgstr "se envió autenticación"
+
+#: api/templates/edit_app_form.mako:593 api/templates/edit_sso_form.mako:361
+msgid "Save"
+msgstr "Guardar"
+
+#: api/templates/edit_app_form.mako:594 api/templates/edit_sso_form.mako:362
+msgid "Saving..."
+msgstr "Guardar..."
+
+#: api/templates/edit_app_form.mako:595 api/templates/edit_sso_form.mako:363
+msgid "Saved"
+msgstr "Guardado"
+
+#: api/templates/edit_sso_form.mako:6
+msgid "SSO Details"
+msgstr "Detalles de la SSO"
+
+#: api/templates/edit_sso_form.mako:165
+msgid "By removing this profile you will delete all associated data."
+msgstr "Todos los datos quedarán borrados al eliminar esta aplicación."
+
+#: api/templates/edit_sso_form.mako:329 api/templates/organization.mako:185
+#: api/templates/organization.mako:259
+msgid "pending"
+msgstr "pendiente(s)"
+
+#: api/templates/index.mako:30
+msgid "Deorbit all active sessions in Orbit"
+msgstr "Sacar de órbita todos los dispositivos"
+
+#: api/templates/index.mako:42 api/templates/index.mako:44
+msgid "avatar"
+msgstr "avatar"
+
+#: api/templates/index.mako:59 api/templates/index.mako:114
+#: api/templates/index.mako:116
+msgid "Deorbit"
+msgstr "Desorbitar"
+
+#: api/templates/index.mako:72
+msgid "authentication granted"
+msgstr "se autorizó autenticación"
+
+#: api/templates/index.mako:74
+msgid "authentication sent"
+msgstr "se envió autenticación"
+
+#: api/templates/index.mako:78
+msgid "active session"
+msgstr "sesión activa"
+
+#: api/templates/index.mako:80
+msgid "authentication granted, pending app response"
+msgstr "se autorizó autenticación, en espera de respuesta de la aplicación"
+
+#: api/templates/index.mako:82
+msgid "deorbited, awaiting app response"
+msgstr "fuera de órbita, en espera de respuesta de aplicación"
+
+#: api/templates/index.mako:128
+msgid "End of Orbit"
+msgstr "Fin de la órbita"
+
+#: api/templates/login.mako:4
+msgid "Log in"
+msgstr "Iniciar sesión"
+
+#: api/templates/login.mako:25
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: api/templates/login.mako:26 oauth/templates/login.mako:40
+msgid "Submit"
+msgstr "Enviar"
+
+#: api/templates/login.mako:31
+msgid "Download the app"
+msgstr "Descarga la aplicación"
+
+#: api/templates/message.mako:23 api/templates/pair_complete.mako:27
+#: api/templates/unpair.mako:42
+msgid "Device successfully unpaired."
+msgstr "Se desvinculó dispositivo con éxito."
+
+#: api/templates/organization.mako:4 api/templates/organization.mako:33
+msgid "Organization"
+msgstr "Organización"
+
+#: api/templates/organization.mako:27 api/templates/organization.mako:29
+msgid "Organization Logo"
+msgstr "Logotipo de organización"
+
+#: api/templates/organization.mako:40
+msgid "Edit Organization details"
+msgstr "Editar datos de la organización"
+
+#: api/templates/organization.mako:40
+msgid "Edit"
+msgstr "Editar"
+
+#: api/templates/organization.mako:58
+msgid "Import app..."
+msgstr "Importar aplicación"
+
+#: api/templates/organization.mako:71 oauth/templates/base.mako:175
+msgid "Apps"
+msgstr "Aplicaciones"
+
+#: api/templates/organization.mako:82
+msgid "No apps yet"
+msgstr "Aún no tienes aplicaciones"
+
+#: api/templates/organization.mako:133
+msgid "Admins"
+msgstr "Administrador(es)"
+
+#: api/templates/organization.mako:145 api/templates/organization.mako:219
+msgid "First name"
+msgstr "Nombre"
+
+#: api/templates/organization.mako:150 api/templates/organization.mako:224
+msgid "Last name"
+msgstr "Apellido(s)"
+
+#: api/templates/organization.mako:155 api/templates/organization.mako:229
+msgid "Email address"
+msgstr "Dirección de correo-e"
+
+#: api/templates/organization.mako:160 api/templates/organization.mako:234
+msgid "Invite"
+msgstr "Invitar"
+
+#: api/templates/organization.mako:303
+msgid "Invitation Sent"
+msgstr "se envió autenticación"
+
+#: api/templates/pair.mako:4
+msgid "Confirm Device Pair"
+msgstr "Confirmar vinculación de dispositivo"
+
+#: api/templates/pair.mako:22
+msgid "Pair device"
+msgstr "Vincular dispositivo"
+
+#: api/templates/pair.mako:23
+msgid "You're almost done!"
+msgstr "La vinculación de dispositivo está por finalizar."
+
+#: api/templates/pair.mako:24
+msgid "Complete the pair process below"
+msgstr "Finaliza el proceso de vinculación más adelante"
+
+#: api/templates/pair.mako:29
+msgid "I have read and agree in full to these"
+msgstr "He leído lo anterior y lo acepto por completo"
+
+#: api/templates/pair.mako:30
+msgid "Confirm Pair"
+msgstr "Confirmar vinculación de dispositivo"
+
+#: api/templates/unpair.mako:4
+msgid "Unpair Device(s) From LaunchKey"
+msgstr "Desvincular dispositivo(s) de LaunchKey"
+
+#: api/templates/unpair_form.mako:2
+msgid "Unpair your device"
+msgstr "Desvincula tu dispositivo"
+
+#: api/templates/unpair_form.mako:3
+msgid "Device Unpair"
+msgstr "Desvincular dispositivo"
+
+#: api/templates/unpair_form.mako:4
+msgid ""
+"Select the device or devices you want to remotely unpair from LaunchKey."
+msgstr ""
+"Elige el o los dispositivos que deseas desvincular de LaunchKey de manera "
+"remota."
+
+#: api/templates/unpair_form.mako:5
+msgid ""
+"Unpairing a device from LaunchKey will prevent that device from "
+"authenticating through LaunchKey until the device has been successfully re-"
+"paired."
+msgstr ""
+"Desvincular un dispositivo de LaunchKey evitará que el dispositivo pueda "
+"autenticarse usando LaunchKey hasta que se haya vinculado de nuevo."
+
+#: api/templates/unpair_form.mako:20
+msgid "Device Name"
+msgstr "Nombre de dispositivo"
+
+#: api/templates/unpair_form.mako:23
+msgid "Last auth"
+msgstr "Última autenticación"
+
+#: api/templates/unpair_form.mako:35 api/templates/unpair_form.mako:37
+#: api/templates/unpair_form.mako:39
+msgid "phone"
+msgstr "teléfono"
+
+#: api/templates/unpair_form.mako:35 api/templates/unpair_form.mako:37
+#: api/templates/unpair_form.mako:39
+msgid "Phone"
+msgstr "Teléfono"
+
+#: api/templates/unpair_form.mako:54
+msgid "Submit Unpair Request"
+msgstr "Enviar pedido para desvincular"
+
+#: oauth/templates/base.mako:43 oauth/templates/base.mako:48
+msgid "LaunchKey Home"
+msgstr "Inicio de LaunchKey"
+
+#: oauth/templates/base.mako:44
+msgid "Menu"
+msgstr "Menú"
+
+#: oauth/templates/base.mako:95
+msgid "Mobile App"
+msgstr "Aplicación móvil"
+
+#: oauth/templates/base.mako:98
+msgid "LaunchKey Helpdesk"
+msgstr "Ayuda técnica de LaunchKey"
+
+#: oauth/templates/base.mako:107
+msgid "About LaunchKey"
+msgstr "Qué es LaunchKey"
+
+#: oauth/templates/base.mako:72
+msgid "Top of page"
+msgstr "Inicio de la página"
+
+#: oauth/templates/base.mako:72
+msgid "Top"
+msgstr "Subir"
+
+#: oauth/templates/base.mako:82
+msgid "Developer Documentation"
+msgstr "Manual del desarrollador"
+
+#: oauth/templates/base.mako:82
+msgid "Getting Started"
+msgstr "Cómo comenzar"
+
+#: oauth/templates/base.mako:83
+msgid "RESTful API"
+msgstr "RESTful API"
+
+#: oauth/templates/base.mako:83
+msgid "REST API"
+msgstr "API de REST"
+
+#: oauth/templates/base.mako:85
+msgid "LaunchKey WordPress plugin"
+msgstr "Plugin de LaunchKey para Wordpress"
+
+#: oauth/templates/base.mako:85
+msgid "WordPress Plugin"
+msgstr "Plugin de Wordpress"
+
+#: oauth/templates/base.mako:96
+msgid "LaunchKey dashboard"
+msgstr "Tablero LaunchKey"
+
+#: oauth/templates/base.mako:109
+msgid "Security practices"
+msgstr "Prácticas de seguridad"
+
+#: oauth/templates/404.mako:18
+msgid "LaunchKey home"
+msgstr "Inicio de LaunchKey"
+
+#: oauth/templates/base.mako:149
+msgid "Developer Terms"
+msgstr "Condiciones para desarrolladores"
+
+#: oauth/templates/404.mako:14
+msgid "Not Found"
+msgstr "No se encontró"
+
+#: oauth/templates/404.mako:15
+msgid "Error 404"
+msgstr "Error 404"
+
+#: oauth/templates/404.mako:17 oauth/templates/error.mako:17
+msgid "Watch out, there's a moon there..."
+msgstr "Cuidado con la luna..."
+
+#: oauth/templates/404.mako:18
+msgid "Use the navigation at the top or bottom of the page or click"
+msgstr ""
+"Utiliza los botones de navegación en la parte superior o inferior de la "
+"página o haz clic"
+
+#: oauth/templates/404.mako:18
+msgid "here"
+msgstr "aquí"
+
+#: oauth/templates/404.mako:18
+msgid "to go home"
+msgstr "para ir a la página de inicio"
+
+#: oauth/templates/base.mako:70
+msgid "Navigation"
+msgstr "Navegación"
+
+#: oauth/templates/base.mako:84
+msgid "LaunchKey API libraries"
+msgstr "Bibliotecas API de LaunchKey"
+
+#: oauth/templates/base.mako:118
+msgid "Follow"
+msgstr "Síguenos"
+
+#: oauth/templates/base.mako:119
+msgid "LaunchKey on Twitter"
+msgstr "LaunchKey en Twitter"
+
+#: oauth/templates/base.mako:120
+msgid "LaunchKey Facebook Page"
+msgstr "Página en Facebook de LaunchKey"
+
+#: oauth/templates/base.mako:120
+msgid "On Facebook"
+msgstr "En Facebook"
+
+#: oauth/templates/base.mako:121
+msgid "LaunchKey GitHub Repository"
+msgstr "Repositorio de LaunchKey en GitHub"
+
+#: oauth/templates/base.mako:121
+msgid "On GitHub"
+msgstr "En GitHub"
+
+#: oauth/templates/base.mako:122
+msgid "LaunchKey Help and Support on Twitter"
+msgstr "Ayuda de LaunchKey y Soporte técnico por Twitter"
+
+#: oauth/templates/base.mako:129
+msgid "Download"
+msgstr "Descargas"
+
+#: oauth/templates/base.mako:149
+msgid "Copyright"
+msgstr "Copyright"
+
+#: oauth/templates/base.mako:184
+msgid "Create a new app"
+msgstr "Crea una aplicación nueva"
+
+#: oauth/templates/base.mako:184
+msgid "Create new app"
+msgstr "Crear aplicación nueva"
+
+#: oauth/templates/login.mako:36
+msgid "Log in with LaunchKey"
+msgstr "Inicia sesión con LaunchKey"
+
+#: oauth/templates/login.mako:49
+msgid "Download LaunchKey on your iOS device from the Apple App Store"
+msgstr "Descarga LaunchKey en tu dispositivo iOS desde la Apple Store"
+
+#: oauth/templates/login.mako:49
+msgid "Download LaunchKey on your Android device from Google Play"
+msgstr "Descarga LaunchKey en tu dispositivo Android desde Google Play"
+
+#: oauth/templates/login.mako:49
+msgid "or"
+msgstr "o"
+
+#: oauth/templates/login.mako:49
+msgid ""
+"Download LaunchKey on your Windows Phone from the Windows Phone App Store"
+msgstr ""
+"Descarga LaunchKey en tu teléfono Windows desde la Tienda Windows Phone "
+
+#: oauth/templates/login.mako:49
+msgid "Windows Phone Store"
+msgstr "Tienda Windows Phone"
+
+#: oauth/templates/login.mako:46
+msgid "Cancel and go back"
+msgstr "Cancelar y volver atrás"
+
+#: oauth/templates/login.mako:46
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: oauth/templates/login.mako:4 oauth/templates/login.mako:14
+msgid "LaunchKey OAuth Login"
+msgstr "Fin de sesión OAuth de LaunchKey"
+
+#: oauth/templates/login.mako:14
+msgid "The following application would like to log you in through"
+msgstr "Esta aplicación desea iniciar sesión mediante"
+
+#: oauth/templates/login.mako:14
+msgid "OAuth"
+msgstr "OAuth"
+
+#: oauth/templates/login.mako:14
+msgid "using LaunchKey"
+msgstr "usando LaunchKey"
+
+#: oauth/templates/logout.mako:4
+msgid "LaunchKey Connect"
+msgstr "Conectar LaunchKey"
+
+#: oauth/templates/logout.mako:18
+msgid "Logged out."
+msgstr "Desconectado."
+
+#: oauth/templates/logout.mako:18
+msgid "Click here to close window."
+msgstr "Haz clic aquí para cerrar ventana."
+
+#~ msgid "App overview"
+#~ msgstr "Descripción general de aplicación"
+
+#~ msgid "Documentation"
+#~ msgstr "Manuales"
+
+#~ msgid "LaunchKey Security"
+#~ msgstr "Seguridad de LaunchKey"
+
+#~ msgid "Learn how to add LaunchKey to your project"
+#~ msgstr "Aprende a usar LaunchKey con tu proyecto"
+
+#~ msgid "Get started"
+#~ msgstr "Manos a la obra"
+
+#~ msgid "Looking for an enterprise integration?"
+#~ msgstr "¿Te interesa realizar una integración empresarial?"
+
+#~ msgid "Email us for more information"
+#~ msgstr "Envíanos un correo electrónico para recibir más información"
+
+#~ msgid "Contact us"
+#~ msgstr "Comunícate con nosotros"
+
+#~ msgid "for more information."
+#~ msgstr "para recibir más información."
+
+#~ msgid "Delete app"
+#~ msgstr "Borrar aplicación"
+
+#~ msgid "This is a 404! No page found here."
+#~ msgstr "¡Error 404! No se encontró la página."
+
+#~ msgid "Config"
+#~ msgstr "Config"
+
+#: api/templates/control.mako:34 api/templates/control.mako:37
+#: api/templates/control.mako:56 api/templates/control.mako:59
+#: api/templates/control.mako:139 api/templates/control.mako:142
+#: api/templates/edit_app_form.mako:111 api/templates/edit_app_form.mako:114
+#: api/templates/edit_app_form.mako:430 api/templates/edit_app_form.mako:433
+msgid "Off"
+msgstr "Apagado"
+
+#: api/templates/control.mako:49
+msgid "Disable logs"
+msgstr "Desactivar registros"
+
+#: api/templates/control.mako:105
+msgid "Account Verification"
+msgstr "Verificación de cuenta"
+
+#: api/templates/control.mako:106
+msgid ""
+"Enable additional account verification factors for added security when "
+"pairing and unpairing devices linked to your account."
+msgstr ""
+"Activa factores extra de verificación de cuenta para mayor seguridad cuando "
+"vincules y desvincules dispositivos vinculados a tu cuenta."
+
+#: api/templates/control.mako:121
+msgid "Add Factor"
+msgstr "Agrega factor"
+
+#: api/templates/control.mako:133
+msgid "Require Both"
+msgstr "Necesita ambos"
+
+#: api/templates/control.mako:155 api/templates/control.mako:243
+#: api/templates/control.mako:272
+msgid "Check your phone"
+msgstr "Revisa tu teléfono"
+
+#: api/templates/control.mako:156
+msgid ""
+"A message has been sent to your phone with activation instructions on how to "
+"complete the pairing process."
+msgstr ""
+"Se envió un mensaje a tu teléfono con instrucciones de activación para "
+"finalizar el proceso de vinculación."
+
+#: api/templates/control.mako:162
+msgid "Add phone number to account"
+msgstr "Agregar número de teléfono a la cuenta"
+
+#: api/templates/control.mako:163
+msgid ""
+"Adding a phone number to your account will add an additional layer of "
+"security when performing sensitive account actions like pairing and "
+"unpairing new devices, etc."
+msgstr ""
+"Al agregar un número de teléfono a tu cuenta tendrás mayor seguridad cuando "
+"realices acciones delicadas en tu cuenta como vincular y desvincular nuevos "
+"dispositivos."
+
+#: api/templates/control.mako:165
+msgid "Phone Number"
+msgstr "Número de teléfono"
+
+#: api/templates/control.mako:167
+msgid "Method"
+msgstr "Método"
+
+#: api/templates/control.mako:169
+msgid "SMS (text)"
+msgstr "Mensaje de texto"
+
+#: api/templates/control.mako:170
+msgid "Voice"
+msgstr "Voz"
+
+#: api/templates/control.mako:182 api/templates/control.mako:302
+msgid "Check your inbox"
+msgstr "Revisa tu buzón de correo"
+
+#: api/templates/control.mako:183
+msgid ""
+"An email has been sent to the given address with instructions on how to "
+"complete the pairing process."
+msgstr ""
+"Se envió un correo electrónico a la dirección proporcionada con "
+"instrucciones para finalizar el proceso de vinculación."
+
+#: api/templates/control.mako:189
+msgid "Add email to account"
+msgstr "Agregar correo electrónico a la cuenta"
+
+#: api/templates/control.mako:190
+msgid ""
+"Adding an email address to your account will add an additional layer of "
+"security when performing sensitive account actions like pairing and "
+"unpairing new devices, etc."
+msgstr ""
+"Al agregar una dirección de correo electrónico a tu cuenta tendrás mayor "
+"seguridad cuando realices acciones delicadas en tu cuenta como vincular y "
+"desvincular nuevos dispositivos."
+
+#: api/templates/control.mako:194
+msgid "Pair Email"
+msgstr "Vincular correo electrónico"
+
+#: api/templates/control.mako:226
+msgid "Use this form to unpair a device from your account."
+msgstr "Utiliza esta forma para desvincular un dispositivo de tu cuenta."
+
+#: api/templates/control.mako:241 api/templates/control.mako:270
+msgid ""
+"Enter the phone number associated with your device and we'll send you an "
+"unpair request."
+msgstr ""
+"Ingresa el número de teléfono asociado con tu dispositivo y te enviaremos "
+"una solicitud para vincularlo."
+
+#: api/templates/control.mako:245 api/templates/control.mako:274
+msgid ""
+"A message has been sent to your phone with instructions on how to complete "
+"the unpairing process."
+msgstr ""
+"Se envió un mensaje a tu teléfono con instrucciones de activación para "
+"finalizar el proceso de desvinculación."
+
+#: api/templates/control.mako:300
+msgid ""
+"Enter the email address associated with your account, and then check your "
+"inbox for an unpair link from LaunchKey."
+msgstr ""
+"Ingresa la dirección de correo electrónico asociada con tu cuenta y luego "
+"abre tu buzón de correo para buscar un enlace de desvinculación de LaunchKey."
+
+#: api/templates/control.mako:304
+msgid ""
+"An email has been sent to the given address with instructions on how to "
+"complete the unpairing process."
+msgstr ""
+"Se envió un correo electrónico a la dirección proporcionada con "
+"instrucciones para finalizar el proceso de desvinculación."
+
+#: api/templates/create_app_form.mako:35 api/templates/edit_sso_form.mako:59
+msgid "Configuration"
+msgstr "Configuración"
+
+#: api/templates/create_app_form.mako:39
+msgid "White Labeling"
+msgstr "Hacker con ética"
+
+#: api/templates/create_app_form.mako:40
+msgid ""
+"To associate this developer application with a LaunchKey white label SDK in "
+"your own native mobile app, create a new white label name or select an "
+"existing white label SDK to associate with this developer app."
+msgstr ""
+"Si deseas asociar esta aplicación de desarrollador con un SDK de hackeo con "
+"ética de LaunchKey en tu propia aplicación móvil original, crea un nombre de "
+"hacker con ética nuevo o elige un SDK de hackeo con ética existente para "
+"asociarlo con esta aplicación de desarrollador."
+
+#: api/templates/create_app_form.mako:43
+msgid "Create new white label:"
+msgstr "Crear nuevo nombre de hacker con ética:"
+
+#: api/templates/create_app_form.mako:44
+msgid "New white label name"
+msgstr "Nuevo nombre de hacker con ética:"
+
+#: api/templates/create_app_form.mako:49
+msgid "Use existing:"
+msgstr "Usar existente:"
+
+#: api/templates/create_app_form.mako:70 api/templates/create_sso_form.mako:48
+msgid "Finish"
+msgstr "Finalizar"
+
+#: api/templates/create_sso_form.mako:6
+msgid "Profile name"
+msgstr "Nombre de perfil"
+
+#: api/templates/create_sso_form.mako:7 api/templates/edit_sso_form.mako:52
+msgid ""
+"The profile name is the name that will display to users when they initiate a "
+"single sign on request."
+msgstr ""
+"El nombre de perfil es el que se mostrará a los usuarios cuando inicien una "
+"solicitud individual de inicio de sesión."
+
+#: api/templates/create_sso_form.mako:15
+msgid "Template"
+msgstr "Plantilla"
+
+#: api/templates/create_sso_form.mako:16
+msgid ""
+"Choose a template to base your SSO profile on. If we do not currently have "
+"one for your service provider, you can utilize the custom option."
+msgstr ""
+"Elige una plantilla en la que basar tu perfil SSO. Puedes utilizar la opción "
+"de personalización si no contamos con una para tu proveedor de servicios."
+
+#: api/templates/create_sso_form.mako:27
+msgid "Certificate Expiration"
+msgstr "Vencimiento de certificado"
+
+#: api/templates/create_sso_form.mako:28
+msgid ""
+"How long of a timespan the certificate should remain valid for. Once "
+"expired, the SSO profile will be inactive, and you will be required to "
+"generate a new one."
+msgstr ""
+"El tiempo en el que debe permanecer vigente el certificado. Una vez que "
+"venza el plazo, el perfil SSO se desactivará y tendrás que generar uno nuevo."
+
+#: api/templates/create_sso_form.mako:32
+msgid "1 Year"
+msgstr "1 año"
+
+#: api/templates/create_sso_form.mako:33
+msgid "2 Years"
+msgstr "2 años"
+
+#: api/templates/create_sso_form.mako:34
+msgid "5 Years"
+msgstr "5 años"
+
+#: api/templates/create_sso_form.mako:61
+msgid "Create SSO"
+msgstr "Crear SSO"
+
+#: api/templates/edit_app_form.mako:123
+msgid "Delete Application"
+msgstr "Eliminar aplicación"
+
+#: api/templates/edit_app_form.mako:124
+msgid "Permanently delete and disable this application."
+msgstr "Eliminar y desactivar esta aplicación"
+
+#: api/templates/edit_app_form.mako:182
+msgid "No secret yet"
+msgstr "No hay llave secreta"
+
+#: api/templates/edit_app_form.mako:222
+msgid "No Key Confirmed"
+msgstr "No existe llave confirmada"
+
+#: api/templates/edit_app_form.mako:231
+msgid "White Label SDK"
+msgstr "SDK hackeo con ética"
+
+#: api/templates/edit_app_form.mako:235
+msgid "White Label Name"
+msgstr "Nombre de hacker con ética"
+
+#: api/templates/edit_app_form.mako:243
+msgid "White Label SDK Key"
+msgstr "Llave de SDK de hackeo con ética"
+
+#: api/templates/edit_app_form.mako:258
+msgid "Notice"
+msgstr "Aviso"
+
+#: api/templates/edit_app_form.mako:258
+msgid ""
+"These premium security features are currently available for testing and "
+"evaluation. In the future, a"
+msgstr ""
+"Estas funciones de seguridad con cargo adicional están disponibles para "
+"hacer pruebas y evaluaciones. En el futuro, es"
+
+#: api/templates/edit_app_form.mako:258
+msgid "account may be required to utilize these features."
+msgstr "posible que se necesite una cuenta para utilizarlas."
+
+#: api/templates/edit_app_form.mako:264
+msgid "Restrict Access"
+msgstr "Restringir acceso"
+
+#: api/templates/edit_app_form.mako:268
+msgid "Security Fencing"
+msgstr "Vallado de seguridad"
+
+#: api/templates/edit_app_form.mako:269
+msgid ""
+"Define geographical or time-based conditions end users must comply with "
+"prior to authentication."
+msgstr ""
+"Definir condiciones geográficas o por tiempo que deben cumplir los usuarios "
+"antes de proceder con la autenticación."
+
+#: api/templates/edit_app_form.mako:273
+msgid "Add a new geo-fence"
+msgstr "Agregar nueva geovalla"
+
+#: api/templates/edit_app_form.mako:273
+msgid "Add Geo-Fence"
+msgstr "Agregar geovalla"
+
+#: api/templates/edit_app_form.mako:274
+msgid "Add a new time-fence"
+msgstr "Agregar nueva valla de tiempo"
+
+#: api/templates/edit_app_form.mako:274
+msgid "Add Time-Fence"
+msgstr "Agregar valla de tiempo"
+
+#: api/templates/edit_app_form.mako:283
+msgid ""
+"Instructions: Add a marker by clicking the point on the map representing the "
+"center of your new geo-fence. Adjust the radius of your fence by dragging "
+"and re-sizing the boundary shown. Drag the marker around and zoom by "
+"scrolling as needed."
+msgstr ""
+"Instrucciones: agregar marcador haciendo clic en el punto del mapa que "
+"representa el centro de la nueva geovalla. Ajusta el radio de la valla "
+"arrastrando y modificando el borde que se muestra. Arrastra el marcador y "
+"haz acercamientos desplazando el ratón según sea necesario."
+
+#: api/templates/edit_app_form.mako:287
+msgid "Latitude"
+msgstr "Latitud"
+
+#: api/templates/edit_app_form.mako:292
+msgid "Longitude"
+msgstr "Longitud"
+
+#: api/templates/edit_app_form.mako:297
+msgid "Fence Radius"
+msgstr "Radio de valla"
+
+#: api/templates/edit_app_form.mako:303
+msgid "Name Fence"
+msgstr "Nombrar valla"
+
+#: api/templates/edit_app_form.mako:305 api/templates/edit_app_form.mako:393
+msgid "Add Fence"
+msgstr "Agregar valla"
+
+#: api/templates/edit_app_form.mako:314
+msgid "Define a time range users may authenticate to this application:"
+msgstr ""
+"Definir un intervalo en el que los usuarios podrán autenticar esta "
+"aplicación:"
+
+#: api/templates/edit_app_form.mako:315
+msgid "Day"
+msgstr "Día"
+
+#: api/templates/edit_app_form.mako:315
+msgid "hold ctrl/optn to select multiple"
+msgstr "Presiona sin soltar ctrl y opciones para selección múltiple"
+
+#: api/templates/edit_app_form.mako:317
+msgid "Sunday"
+msgstr "Domingo"
+
+#: api/templates/edit_app_form.mako:318
+msgid "Monday"
+msgstr "Lunes"
+
+#: api/templates/edit_app_form.mako:319
+msgid "Tuesday"
+msgstr "Martes"
+
+#: api/templates/edit_app_form.mako:320
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: api/templates/edit_app_form.mako:321
+msgid "Thursday"
+msgstr "Jueves"
+
+#: api/templates/edit_app_form.mako:322
+msgid "Friday"
+msgstr "Viernes"
+
+#: api/templates/edit_app_form.mako:323
+msgid "Saturday"
+msgstr "Sábado"
+
+#: api/templates/edit_app_form.mako:325
+msgid "Start"
+msgstr "Inicio"
+
+#: api/templates/edit_app_form.mako:375
+msgid "Time Zone"
+msgstr "Huso horario"
+
+#: api/templates/edit_app_form.mako:392
+msgid "e.g. Weekly Time Fence"
+msgstr "p. ej., valla de tiempo semanal"
+
+#: api/templates/edit_app_form.mako:397
+msgid "Active security fences"
+msgstr "Activar valla de seguridad"
+
+#: api/templates/edit_app_form.mako:402
+msgid "Remove security fence"
+msgstr "Eliminar valla de seguridad"
+
+#: api/templates/edit_app_form.mako:418
+msgid "Whitelisting"
+msgstr "Incluir en lista blanca"
+
+#: api/templates/edit_app_form.mako:419
+msgid ""
+"Enforce whitelist to allow only select users to authenticate with your "
+"application."
+msgstr ""
+"Forzar inclusión en lista blanca para permitirles solo a usuarios selectos "
+"autenticar con tu aplicación."
+
+#: api/templates/edit_app_form.mako:440
+msgid "Add a new whitelist user"
+msgstr "Agregar nuevo usuario de lista blanca"
+
+#: api/templates/edit_app_form.mako:440
+msgid "Add Whitelist User"
+msgstr "Agregar usuario de lista blanca"
+
+#: api/templates/edit_app_form.mako:446
+msgid ""
+"Only allow users to be authorized if their account is paired to the email "
+"that the invite is sent to."
+msgstr ""
+"Permitir solo a usuarios tener autorización si su cuenta está vinculada con "
+"el correo electrónico al que se envía la invitación."
+
+#: api/templates/edit_app_form.mako:446
+msgid "Use strict email matching"
+msgstr "Utilizar coincidencia exacta de correo electrónico"
+
+#: api/templates/edit_app_form.mako:477
+msgid "Remove Whitelist User"
+msgstr "Eliminar usuario de lista blanca"
+
+#: api/templates/edit_app_form.mako:495
+msgid "End User Auth Requirements"
+msgstr "Requisitos para finalizar autorización de usuario"
+
+#: api/templates/edit_app_form.mako:499
+msgid "Force Auth Factors"
+msgstr "Forzar factores de autorización"
+
+#: api/templates/edit_app_form.mako:500
+msgid ""
+"Forcing authentication factors ensures that end users have a specific "
+"factor, type of factor, or amount of factors enabled on their mobile device."
+msgstr ""
+"Forzar los factores de autenticación garantiza que los usuarios finales "
+"tengan activados un factor específico, un tipo de factor o una cantidad de "
+"factores en su dispositivo móvil."
+
+#: api/templates/edit_app_form.mako:510
+msgid "Force factors by"
+msgstr "Forzar factores mediante"
+
+#: api/templates/edit_app_form.mako:512
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: api/templates/edit_app_form.mako:515
+msgid "Amount"
+msgstr "Cantidad"
+
+#: api/templates/edit_app_form.mako:519 api/templates/edit_app_form.mako:553
+msgid "Force use of the following types of auth factors:"
+msgstr "Forzar usando los siguientes tipos de factores de autorización:"
+
+#: api/templates/edit_app_form.mako:523 api/templates/edit_app_form.mako:559
+msgid "Knowledge"
+msgstr "Algo que sabes"
+
+#: api/templates/edit_app_form.mako:527 api/templates/edit_app_form.mako:563
+msgid "Possession"
+msgstr "Algo que posees"
+
+#: api/templates/edit_app_form.mako:531 api/templates/edit_app_form.mako:567
+msgid "Inherence"
+msgstr "Inherencia"
+
+#: api/templates/edit_app_form.mako:536
+msgid "Force minimum amount of factors:"
+msgstr "Forzar cantidad mínima de factores:"
+
+#: api/templates/edit_app_form.mako:539 api/templates/edit_app_form.mako:544
+msgid "None"
+msgstr "Ninguno"
+
+#: api/templates/edit_app_form.mako:581 api/templates/edit_sso_form.mako:349
+msgid "Whitelist Created"
+msgstr "Se creó lista blanca"
+
+#: api/templates/edit_sso_form.mako:11
+msgid "Attributes"
+msgstr "Atributos"
+
+#: api/templates/edit_sso_form.mako:12 api/templates/edit_sso_form.mako:224
+msgid "Metadata"
+msgstr "Metadatos"
+
+#: api/templates/edit_sso_form.mako:23
+msgid ""
+"Upload an image that is representative of the associated Service Provider. "
+"This icon will display on user's SSO dashboard as well as login requests."
+msgstr ""
+"Carga una imagen que represente al proveedor que se asocia con el servicio. "
+"Este icono se mostrará en el tablero SSO del usuario y en las solicitudes de "
+"inicio de sesión."
+
+#: api/templates/edit_sso_form.mako:64
+msgid "Entity ID"
+msgstr "ID de entidad"
+
+#: api/templates/edit_sso_form.mako:65
+msgid "The entity ID of the service provider that you will be logging into."
+msgstr ""
+"La ID de entidad del proveedor de servicios con el que iniciarás sesión."
+
+#: api/templates/edit_sso_form.mako:74
+msgid "POST URL"
+msgstr "URL con método POST"
+
+#: api/templates/edit_sso_form.mako:75
+msgid "The service provider's url to which login requests are initiated to."
+msgstr ""
+"El localizador uniforme de recursos (URL) del proveedor de servicios con el "
+"que se iniciarán las peticiones de inicio de sesión."
+
+#: api/templates/edit_sso_form.mako:84
+msgid "Redirect URL"
+msgstr "URL de redirección"
+
+#: api/templates/edit_sso_form.mako:85
+msgid "The redirect location to send the user to after being authenticated."
+msgstr ""
+"La ubicación de redirección a la que se enviará al usuario después del "
+"proceso de autenticación."
+
+#: api/templates/edit_sso_form.mako:94
+msgid "Name ID Format"
+msgstr "Formato para ID de nombre"
+
+#: api/templates/edit_sso_form.mako:95
+msgid ""
+"The format in which the service provider is expecting Name IDs to be "
+"submitted."
+msgstr ""
+"El formato en el que el proveedor de servicios espera que se envíen las ID "
+"de nombre."
+
+#: api/templates/edit_sso_form.mako:109
+msgid "Binding Type"
+msgstr "Tipo de enlace"
+
+#: api/templates/edit_sso_form.mako:110
+msgid ""
+"The binding type to utilize. Note that we currently only support HTTP-POST."
+msgstr ""
+"El tipo de enlace que se utilizará. Actualmente solo es posible enlazar "
+"mediante HTTP POST."
+
+#: api/templates/edit_sso_form.mako:121
+msgid "Signing"
+msgstr "Proceso de verificación"
+
+#: api/templates/edit_sso_form.mako:122
+msgid "States which portions of the SAML response to sign."
+msgstr "Menciona las partes de la respuesta de SAML a verificar."
+
+#: api/templates/edit_sso_form.mako:126
+msgid "Sign Responses"
+msgstr "Respuesta de verificación"
+
+#: api/templates/edit_sso_form.mako:129
+msgid "Sign Assertions"
+msgstr "Ratificación de verificación"
+
+#: api/templates/edit_sso_form.mako:139
+msgid "SSO Status"
+msgstr "Estado de SSO"
+
+#: api/templates/edit_sso_form.mako:140
+msgid "Turn off to disable your SSO or back on to enable it."
+msgstr "Apagar para desactivar el SSO o encender de nuevo para activarlo."
+
+#: api/templates/edit_sso_form.mako:158
+msgid "Delete Single Sign On"
+msgstr "Eliminar Single Sign On"
+
+#: api/templates/edit_sso_form.mako:159
+msgid "Permanently delete and disable this single sign on profile."
+msgstr ""
+"Eliminar de manera permanente y desactivar este perfil de signle sign on."
+
+#: api/templates/edit_sso_form.mako:169
+msgid "Delete SSO"
+msgstr "Eliminar SSO"
+
+#: api/templates/edit_sso_form.mako:179
+msgid "Custom Attributes"
+msgstr "Atributos personalizados"
+
+#: api/templates/edit_sso_form.mako:181
+msgid ""
+"Custom attribute names that the service provider expects to receive with "
+"every SAML response."
+msgstr ""
+"Nombres de atributo personalizados que el proveedor de servicios espera "
+"recibir con cada respuesta de SAML."
+
+#: api/templates/edit_sso_form.mako:182
+msgid "Available variables: {user}"
+msgstr "Variables disponibles: {usuario}"
+
+#: api/templates/edit_sso_form.mako:214
+msgid "New Attribute Map"
+msgstr "Mapa de atributos nuevo "
+
+#: api/templates/edit_sso_form.mako:220
+msgid "SSO Metadata"
+msgstr "Metadatos de SSO"
+
+#: api/templates/edit_sso_form.mako:225
+msgid "Download the IDP metadata XML associated with this SSO profile."
+msgstr "Descarga el XML de metadatos IDP que se asocia con este perfil SSO."
+
+#: api/templates/edit_sso_form.mako:229
+msgid "Download Metadata"
+msgstr "Metadatos de descarga"
+
+#: api/templates/edit_sso_form.mako:235
+msgid "Certificate"
+msgstr "Certificado"
+
+#: api/templates/edit_sso_form.mako:236
+msgid "Download the unique certificate associated with this SSO profile."
+msgstr "Descarga el certificado único que se asocia con este perfil SSO."
+
+#: api/templates/edit_sso_form.mako:241
+msgid "The certificate is expired!"
+msgstr "¡Este certificado ya venció!"
+
+#: api/templates/edit_sso_form.mako:243
+msgid "Expires in"
+msgstr "Vence en"
+
+#: api/templates/edit_sso_form.mako:243
+msgid "Days"
+msgstr "Días"
+
+#: api/templates/edit_sso_form.mako:255
+msgid "Download Certificate"
+msgstr "Descargar certificado"
+
+#: api/templates/edit_sso_form.mako:257
+msgid "Download cert"
+msgstr "Descargar cert"
+
+#: api/templates/edit_sso_form.mako:258
+msgid "View & copy cert"
+msgstr "Ver y copiar cert"
+
+#: api/templates/edit_sso_form.mako:263
+msgid "Generate New Certificate"
+msgstr "Generar certificado nuevo"
+
+#: api/templates/edit_sso_form.mako:269
+msgid "Login URL"
+msgstr "URL de inicio de sesión"
+
+#: api/templates/edit_sso_form.mako:279
+msgid "Logout URL"
+msgstr "URL de fin de sesión"
+
+#: api/templates/edit_sso_form.mako:289
+msgid "Error URL"
+msgstr "URL para mostrar error"
+
+#: api/templates/edit_sso_form.mako:303
+msgid "User Maps"
+msgstr "Mapas de usuario"
+
+#: api/templates/edit_sso_form.mako:305
+msgid "Map organization users to accounts on the service provider."
+msgstr ""
+"Aplicar usuarios de la organización con las cuentas del proveedor de "
+"servicios."
+
+#: api/templates/edit_sso_form.mako:334
+msgid "No Map Set"
+msgstr "No hay mapa configurado"
+
+#: api/templates/notifications.mako:33
+msgid "You have no notifications at this time."
+msgstr "No tienes notificaciones en este momento."
+
+#: api/templates/organization.mako:63
+msgid "Import"
+msgstr "Importar"
+
+#: api/templates/organization.mako:67
+msgid "New application"
+msgstr "Nueva aplicación"
+
+#: api/templates/organization.mako:98
+msgid "New SSO Profile"
+msgstr "Perfil SSO nuevo"
+
+#: api/templates/organization.mako:98 api/templates/sso.mako:5
+msgid "New SSO"
+msgstr "SSO nuevo"
+
+#: api/templates/organization.mako:102 lksaml/templates/base.mako:174
+#: lksaml/templates/dashboard.mako:22
+msgid "Single Sign On"
+msgstr "Single Sign On"
+
+#: api/templates/organization.mako:113
+msgid "No SSO profiles yet"
+msgstr "Aún no hay perfiles SSO"
+
+#: api/templates/organization.mako:172 api/templates/organization.mako:177
+#: api/templates/organization.mako:246 api/templates/organization.mako:251
+msgid "Delete user"
+msgstr "Eliminar usuario"
+
+#: api/templates/organization.mako:277
+msgid "Delete this organization"
+msgstr "Eliminar esta organización"
+
+#: api/templates/organization.mako:277
+msgid "Delete Organization"
+msgstr "Eliminar organización"
+
+#: api/templates/organization.mako:289
+msgid ""
+"To finish removing this organization, please approve the launch request sent "
+"to your mobile device."
+msgstr ""
+"Aprueba el pedido de lanzamiento enviado a tu dispositivo móvil para "
+"terminar el proceso de eliminación de esta organización."
+
+#: api/templates/organization.mako:298
+msgid "Error"
+msgstr "Error"
+
+#: api/templates/sso.mako:7
+msgid "SSO"
+msgstr "SSO"
+
+#: api/templates/sso.mako:43
+msgid "Create a new single sign on profile"
+msgstr "Crea perfil single sign on nuevo"
+
+#: api/templates/sso.mako:44
+msgid ""
+"Create a single sign on profile to integrate LaunchKey with service "
+"providers utilizing SAML 2.0 SSO."
+msgstr ""
+"Crea un perfil single sign on para integrar LaunchKey con proveedores de "
+"servicios que utilicen SSO con SAML 2.0."
+
+#: lksaml/templates/dashboard.mako:4 lksaml/templates/initiate.mako:4
+msgid "LaunchKey SSO"
+msgstr "SSO de LaunchKey"
+
+#: lksaml/templates/dashboard.mako:53
+msgid ""
+"You do not currently have any SSO profiles registered with your account."
+msgstr "Actualmente no tienen perfiles SSO inscritos en tu cuenta."
+
+#: lksaml/templates/initiate.mako:17
+msgid "Logging in to "
+msgstr "Iniciando sesión en"
+
+#: lksaml/templates/login.mako:4 lksaml/templates/login_app.mako:5
+#: lksaml/templates/login_app.mako:15 lksaml/templates/logout.mako:4
+msgid "LaunchKey SSO Login"
+msgstr "Inicio de sesión SSO de LaunchKey"
+
+#: lksaml/templates/login.mako:39 lksaml/templates/login_app.mako:62
+#: lksaml/templates/logout.mako:21
+msgid "Download the LaunchKey mobile app from the"
+msgstr "Descargar la aplicación móvil de LaunchKey desde la(el)"
+
+#: lksaml/templates/login_app.mako:15
+msgid ""
+"The following application would like to log you in through SSO using "
+"LaunchKey"
+msgstr ""
+"La siguiente aplicación quiere iniciar sesión mediante SSO usando LaunchKey"
+
+#: lksaml/templates/logout.mako:16
+msgid "Successfully logged out!"
+msgstr "¡Cierre exitoso de sesión!"

@@ -8,6 +8,7 @@ var gulp        = require('gulp'),
     babelify    = require('babelify'),
     source      = require('vinyl-source-stream'),
     buffer      = require('vinyl-buffer'),
+    pojson      = require('gulp-po-json'),
     plugins     = require('gulp-load-plugins')();
 
 // Compile jsx es6 scripts
@@ -77,13 +78,22 @@ gulp.task('styles', function() {
         .pipe(gulp.dest('./dist/static/styles'))
 });
 
+// Translations
+gulp.task('i18n', function() {
+    return gulp 
+        .src('./src/locale/*.po')
+        .pipe(pojson())
+        .pipe(gulp.dest('./dist/locale'));
+});
+
 // Watch listeners
 gulp.task('watch', function() {
     gulp.watch('./src/static/styles/**/*.scss', ['styles']);
     gulp.watch('./src/templates/**/*.html', ['templates']);
     gulp.watch('./src/static/images/**/*.*', ['images']);
     gulp.watch('./src/static/scripts/**/*.*', ['jsx']);
+    gulp.watch('./src/locale/*.*', ['i18n']);
 });
 
 // Default gulp task
-gulp.task('default', ['styles', 'templates', 'jsx', 'server', 'watch']);
+gulp.task('default', ['styles', 'templates', 'jsx', 'i18n', 'server', 'watch']);
