@@ -74,6 +74,7 @@ gulp.task('styles', function() {
         .on('error', function(err) {
         console.log(err.toString());
         })
+        .pipe(plugins.autoprefixer({browsers: ['last 2 versions']}))
         .pipe(minifyCSS())
         .pipe(gulp.dest('./dist/static/styles'))
 });
