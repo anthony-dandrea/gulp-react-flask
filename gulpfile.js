@@ -4,27 +4,16 @@ var gulp        = require('gulp'),
     minifyCSS   = require('gulp-minify-css'),
     minifyHTML  = require('gulp-minify-html'),
     pngquant    = require('imagemin-pngquant'),
-    browserify  = require('browserify'),
-    babelify    = require('babelify'),
-    source      = require('vinyl-source-stream'),
-    buffer      = require('vinyl-buffer'),
-    pojson      = require('gulp-po-json'),
+    webpack     = require('gulp-webpack'),
+    webpackConf = require('./webpack.config.js'),
     plugins     = require('gulp-load-plugins')();
 
-// Compile jsx es6 scripts
-// http://www.jayway.com/2015/03/04/using-react-with-ecmascript-6/
-gulp.task('jsx', function () {
-  browserify({
-    entries: './src/static/scripts/script.js',
-    extensions: ['.js'],
-    debug: true
-  })
-  .transform(babelify)
-  .bundle()
-  .pipe(source('bundle.js'))
-  .pipe(buffer())
-  .pipe(plugins.uglify())
-  .pipe(gulp.dest('dist/static/scripts'));
+// Webpack handles scripts 
+// Creates a script for each file for each language
+gulp.task('webpack', function() {
+    return gulp.src('./src/scripts/script.js')
+        .pipe(webpack(webpackConf))
+        .pipe(gulp.dest('./dist/static/scripts'))
 });
 
 // Run Flask server
@@ -72,29 +61,41 @@ gulp.task('styles', function() {
             require: ['breakpoint']
         }))
         .on('error', function(err) {
-        console.log(err.toString());
+            console.log(err.toString());
         })
         .pipe(plugins.autoprefixer({browsers: ['last 2 versions']}))
         .pipe(minifyCSS())
         .pipe(gulp.dest('./dist/static/styles'))
 });
 
-// Translations
-gulp.task('i18n', function() {
-    return gulp 
-        .src('./src/locale/*.po')
-        .pipe(pojson())
-        .pipe(gulp.dest('./dist/locale'));
-});
+// Change i18n .po files to .json
+gulp.task('i18n', function () {
+  return gulp.src('./src/locale/*.po', {read: false})
+    .pipe(plugins.shell([
+      'i18next-conv -l es -s <%= file.path %> -t <%= f(file.path) %>'
+    ], {
+      templateData: {
+        f: function (s) {
+          return s.replace(/$/, '.json')
+        }
+      }
+    }))
+})
+
+// Build i18n specific files with webpack
+gulp.task('build-i18n', plugins.shell.task([
+    'webpack --config webpack.i18n.build.config.js'
+]));
 
 // Watch listeners
 gulp.task('watch', function() {
     gulp.watch('./src/static/styles/**/*.scss', ['styles']);
     gulp.watch('./src/templates/**/*.html', ['templates']);
     gulp.watch('./src/static/images/**/*.*', ['images']);
-    gulp.watch('./src/static/scripts/**/*.*', ['jsx']);
-    gulp.watch('./src/locale/*.*', ['i18n']);
+    gulp.watch('./src/locale/*.po', ['i18n']);
 });
 
 // Default gulp task
-gulp.task('default', ['styles', 'templates', 'jsx', 'i18n', 'server', 'watch']);
+gulp.task('default', ['styles', 'templates', 'webpack', 'server', 'watch']);
+// Build i18n gulp task
+gulp.task('build', ['i18n', 'build-i18n']);

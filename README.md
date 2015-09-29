@@ -8,3 +8,7 @@
 - Install gulp globally `npm install -g gulp`.
 - Install node modules `npm install`.
 - Run `gulp` to compile and develop.
+
+If you're having problems with the i18n task you can install i18next-conv globally, `npm install i18next-conv -g`.
+
+Run `gulp build` to make i18n compatible scripts and minify js.

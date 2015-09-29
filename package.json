@@ -9,9 +9,10 @@
   "author": "Anthony D'Andrea",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-loader": "^5.3.2",
     "babelify": "^6.3.0",
     "browser-sync": "^2.9.6",
-    "browserify": "^11.2.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
     "gulp-compass": "^2.1.0",
@@ -20,14 +21,19 @@
     "gulp-minify-css": "^1.2.1",
     "gulp-minify-html": "^1.0.4",
     "gulp-plumber": "^1.0.1",
-    "gulp-po-json": "0.0.4",
     "gulp-shell": "^0.4.3",
     "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6",
+    "gulp-webpack": "^1.5.0",
+    "i18n-webpack-plugin": "^0.2.7",
+    "i18next-conv": "^0.1.4",
+    "i18next-parser": "^0.3.8",
     "imagemin-pngquant": "^4.2.0",
     "react": "^0.13.3",
+    "uglify-loader": "^1.2.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "watchify": "^3.4.0"
+    "watchify": "^3.4.0",
+    "webpack": "^1.12.2"
   }
 }
