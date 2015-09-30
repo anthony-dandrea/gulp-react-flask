@@ -1,6 +1,11 @@
 import React from 'react';
-import App from './components/App';
+import Copy from './components/text';
+import Pic from './components/panda';
 
-React.render(<App />, document.getElementById('app'));
+React.render(
+    <div>
+        <Pic />
+        <Copy />
+    </div>, document.getElementById('app'));
 
 console.log(__('Newsroom'));

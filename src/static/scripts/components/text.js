@@ -1,13 +1,14 @@
 import React from 'react';
 
-class App extends React.Component {
+class Copy extends React.Component {
   render() {
     return (
       <div>
         <p>I am rendered with React & ES6 magic</p>
+        <p>{__('Basic Information')}</p>
       </div>
     );
   }
 }
 
-export default App;
+export default Copy;

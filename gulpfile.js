@@ -4,17 +4,13 @@ var gulp        = require('gulp'),
     minifyCSS   = require('gulp-minify-css'),
     minifyHTML  = require('gulp-minify-html'),
     pngquant    = require('imagemin-pngquant'),
-    webpack     = require('gulp-webpack'),
-    webpackConf = require('./webpack.config.js'),
     plugins     = require('gulp-load-plugins')();
 
 // Webpack handles scripts 
 // Creates a script for each file for each language
-gulp.task('webpack', function() {
-    return gulp.src('./src/scripts/script.js')
-        .pipe(webpack(webpackConf))
-        .pipe(gulp.dest('./dist/static/scripts'))
-});
+gulp.task('webpack', plugins.shell.task([
+    'webpack --watch'
+]));
 
 // Run Flask server
 gulp.task('server', plugins.shell.task([
@@ -82,11 +78,6 @@ gulp.task('i18n', function () {
     }))
 })
 
-// Build i18n specific files with webpack
-gulp.task('build-i18n', plugins.shell.task([
-    'webpack --config webpack.i18n.build.config.js'
-]));
-
 // Watch listeners
 gulp.task('watch', function() {
     gulp.watch('./src/static/styles/**/*.scss', ['styles']);
@@ -96,6 +87,4 @@ gulp.task('watch', function() {
 });
 
 // Default gulp task
-gulp.task('default', ['styles', 'templates', 'webpack', 'server', 'watch']);
-// Build i18n gulp task
-gulp.task('build', ['i18n', 'build-i18n']);
+gulp.task('default', ['styles', 'i18n', 'templates', 'webpack', 'server', 'watch']);
