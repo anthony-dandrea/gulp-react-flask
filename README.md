@@ -8,3 +8,6 @@
 - Install gulp, retire, and i18next-conv globally `npm install -g gulp i18next-conv retire`.
 - Install node modules `npm install`.
 - Run `gulp` to compile and develop.
+
+## Testing
+Run `npm test`.

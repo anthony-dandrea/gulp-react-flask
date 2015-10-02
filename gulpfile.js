@@ -107,5 +107,4 @@ gulp.task('watch', function() {
 
 // Default gulp task
 gulp.task('default', ['styles', 'i18n', 'templates', 'webpack', 'server', 'watch']);
-// Run testing tasks
-gulp.task('test', ['retire']);
+
