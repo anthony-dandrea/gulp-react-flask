@@ -8,7 +8,7 @@ var gulp        = require('gulp'),
     gutil       = require('gulp-util'),
     plugins     = require('gulp-load-plugins')();
 
-// Webpack handles scripts 
+// Webpack handles scripts
 // Creates a script for each file for each language
 gulp.task('webpack', plugins.shell.task([
     'webpack --watch'
@@ -27,7 +27,7 @@ gulp.task('templates', function() {
     }
     return gulp.src('./src/templates/**/*.html')
         // Disabled until single quotes work
-        // .pipe(htmlmin(opts))
+        .pipe(htmlmin(opts))
         .pipe(gulp.dest('./dist/templates'));
 });
 
